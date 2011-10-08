@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21F1C1D8143FDF0A006C2A5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F1C1D7143FDF0A006C2A5B /* UIKit.framework */; };
+		21F1C1DA143FDF0A006C2A5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F1C1D9143FDF0A006C2A5B /* Foundation.framework */; };
+		21F1C1DC143FDF0A006C2A5B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F1C1DB143FDF0A006C2A5B /* CoreGraphics.framework */; };
+		21F1C1E2143FDF0A006C2A5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21F1C1E0143FDF0A006C2A5B /* InfoPlist.strings */; };
+		21F1C1E5143FDF0A006C2A5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F1C1E4143FDF0A006C2A5B /* main.m */; };
+		21F1C1E8143FDF0A006C2A5B /* BFC_iOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F1C1E7143FDF0A006C2A5B /* BFC_iOSAppDelegate.m */; };
+		21F1C1EB143FDF0A006C2A5B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21F1C1E9143FDF0A006C2A5B /* MainWindow.xib */; };
+		21F1C1EE143FDF0A006C2A5B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F1C1ED143FDF0A006C2A5B /* FirstViewController.m */; };
+		21F1C1F1143FDF0A006C2A5B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F1C1F0143FDF0A006C2A5B /* SecondViewController.m */; };
+		21F1C1F4143FDF0A006C2A5B /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21F1C1F2143FDF0A006C2A5B /* FirstView.xib */; };
+		21F1C1F7143FDF0A006C2A5B /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21F1C1F5143FDF0A006C2A5B /* SecondView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21F1C1D3143FDF0A006C2A5B /* BFC-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BFC-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F1C1D7143FDF0A006C2A5B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		21F1C1D9143FDF0A006C2A5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		21F1C1DB143FDF0A006C2A5B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		21F1C1DF143FDF0A006C2A5B /* BFC-iOS-Info.plist */ = {isa = PBXFileReference; path = "BFC-iOS-Info.plist"; sourceTree = "<group>"; };
+		21F1C1E1143FDF0A006C2A5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		21F1C1E3143FDF0A006C2A5B /* BFC-iOS-Prefix.pch */ = {isa = PBXFileReference; path = "BFC-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		21F1C1E4143FDF0A006C2A5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21F1C1E6143FDF0A006C2A5B /* BFC_iOSAppDelegate.h */ = {isa = PBXFileReference; path = BFC_iOSAppDelegate.h; sourceTree = "<group>"; };
+		21F1C1E7143FDF0A006C2A5B /* BFC_iOSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFC_iOSAppDelegate.m; sourceTree = "<group>"; };
+		21F1C1EA143FDF0A006C2A5B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		21F1C1EC143FDF0A006C2A5B /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		21F1C1ED143FDF0A006C2A5B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		21F1C1EF143FDF0A006C2A5B /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		21F1C1F0143FDF0A006C2A5B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		21F1C1F3143FDF0A006C2A5B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		21F1C1F6143FDF0A006C2A5B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21F1C1D0143FDF0A006C2A5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F1C1D8143FDF0A006C2A5B /* UIKit.framework in Frameworks */,
+				21F1C1DA143FDF0A006C2A5B /* Foundation.framework in Frameworks */,
+				21F1C1DC143FDF0A006C2A5B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21F1C1C8143FDF0A006C2A5B = {
+			isa = PBXGroup;
+			children = (
+				21F1C1DD143FDF0A006C2A5B /* BFC-iOS */,
+				21F1C1D6143FDF0A006C2A5B /* Frameworks */,
+				21F1C1D4143FDF0A006C2A5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21F1C1D4143FDF0A006C2A5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21F1C1D3143FDF0A006C2A5B /* BFC-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21F1C1D6143FDF0A006C2A5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21F1C1D7143FDF0A006C2A5B /* UIKit.framework */,
+				21F1C1D9143FDF0A006C2A5B /* Foundation.framework */,
+				21F1C1DB143FDF0A006C2A5B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21F1C1DD143FDF0A006C2A5B /* BFC-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				21F1C1E6143FDF0A006C2A5B /* BFC_iOSAppDelegate.h */,
+				21F1C1E7143FDF0A006C2A5B /* BFC_iOSAppDelegate.m */,
+				21F1C1E9143FDF0A006C2A5B /* MainWindow.xib */,
+				21F1C1EC143FDF0A006C2A5B /* FirstViewController.h */,
+				21F1C1ED143FDF0A006C2A5B /* FirstViewController.m */,
+				21F1C1EF143FDF0A006C2A5B /* SecondViewController.h */,
+				21F1C1F0143FDF0A006C2A5B /* SecondViewController.m */,
+				21F1C1F2143FDF0A006C2A5B /* FirstView.xib */,
+				21F1C1F5143FDF0A006C2A5B /* SecondView.xib */,
+				21F1C1DE143FDF0A006C2A5B /* Supporting Files */,
+			);
+			path = "BFC-iOS";
+			sourceTree = "<group>";
+		};
+		21F1C1DE143FDF0A006C2A5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21F1C1DF143FDF0A006C2A5B /* BFC-iOS-Info.plist */,
+				21F1C1E0143FDF0A006C2A5B /* InfoPlist.strings */,
+				21F1C1E3143FDF0A006C2A5B /* BFC-iOS-Prefix.pch */,
+				21F1C1E4143FDF0A006C2A5B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21F1C1D2143FDF0A006C2A5B /* BFC-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21F1C1FA143FDF0A006C2A5B /* Build configuration list for PBXNativeTarget "BFC-iOS" */;
+			buildPhases = (
+				21F1C1CF143FDF0A006C2A5B /* Sources */,
+				21F1C1D0143FDF0A006C2A5B /* Frameworks */,
+				21F1C1D1143FDF0A006C2A5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BFC-iOS";
+			productName = "BFC-iOS";
+			productReference = 21F1C1D3143FDF0A006C2A5B /* BFC-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21F1C1CA143FDF0A006C2A5B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 21F1C1CD143FDF0A006C2A5B /* Build configuration list for PBXProject "BFC-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 21F1C1C8143FDF0A006C2A5B;
+			productRefGroup = 21F1C1D4143FDF0A006C2A5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21F1C1D2143FDF0A006C2A5B /* BFC-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21F1C1D1143FDF0A006C2A5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F1C1E2143FDF0A006C2A5B /* InfoPlist.strings in Resources */,
+				21F1C1EB143FDF0A006C2A5B /* MainWindow.xib in Resources */,
+				21F1C1F4143FDF0A006C2A5B /* FirstView.xib in Resources */,
+				21F1C1F7143FDF0A006C2A5B /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21F1C1CF143FDF0A006C2A5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F1C1E5143FDF0A006C2A5B /* main.m in Sources */,
+				21F1C1E8143FDF0A006C2A5B /* BFC_iOSAppDelegate.m in Sources */,
+				21F1C1EE143FDF0A006C2A5B /* FirstViewController.m in Sources */,
+				21F1C1F1143FDF0A006C2A5B /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		21F1C1E0143FDF0A006C2A5B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21F1C1E1143FDF0A006C2A5B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		21F1C1E9143FDF0A006C2A5B /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21F1C1EA143FDF0A006C2A5B /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		21F1C1F2143FDF0A006C2A5B /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21F1C1F3143FDF0A006C2A5B /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		21F1C1F5143FDF0A006C2A5B /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21F1C1F6143FDF0A006C2A5B /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21F1C1F8143FDF0A006C2A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		21F1C1F9143FDF0A006C2A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		21F1C1FB143FDF0A006C2A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BFC-iOS/BFC-iOS-Prefix.pch";
+				INFOPLIST_FILE = "BFC-iOS/BFC-iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		21F1C1FC143FDF0A006C2A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BFC-iOS/BFC-iOS-Prefix.pch";
+				INFOPLIST_FILE = "BFC-iOS/BFC-iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21F1C1CD143FDF0A006C2A5B /* Build configuration list for PBXProject "BFC-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F1C1F8143FDF0A006C2A5B /* Debug */,
+				21F1C1F9143FDF0A006C2A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21F1C1FA143FDF0A006C2A5B /* Build configuration list for PBXNativeTarget "BFC-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F1C1FB143FDF0A006C2A5B /* Debug */,
+				21F1C1FC143FDF0A006C2A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21F1C1CA143FDF0A006C2A5B /* Project object */;
+}
