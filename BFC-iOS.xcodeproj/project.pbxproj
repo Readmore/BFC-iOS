@@ -12,12 +12,12 @@
 		21F1C1DC143FDF0A006C2A5B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F1C1DB143FDF0A006C2A5B /* CoreGraphics.framework */; };
 		21F1C1E2143FDF0A006C2A5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21F1C1E0143FDF0A006C2A5B /* InfoPlist.strings */; };
 		21F1C1E5143FDF0A006C2A5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F1C1E4143FDF0A006C2A5B /* main.m */; };
-		21F1C1E8143FDF0A006C2A5B /* BFC_iOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F1C1E7143FDF0A006C2A5B /* BFC_iOSAppDelegate.m */; };
-		21F1C1EB143FDF0A006C2A5B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21F1C1E9143FDF0A006C2A5B /* MainWindow.xib */; };
-		21F1C1EE143FDF0A006C2A5B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F1C1ED143FDF0A006C2A5B /* FirstViewController.m */; };
-		21F1C1F1143FDF0A006C2A5B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F1C1F0143FDF0A006C2A5B /* SecondViewController.m */; };
-		21F1C1F4143FDF0A006C2A5B /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21F1C1F2143FDF0A006C2A5B /* FirstView.xib */; };
-		21F1C1F7143FDF0A006C2A5B /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21F1C1F5143FDF0A006C2A5B /* SecondView.xib */; };
+		AFD99E58143FE2650008198C /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFD99E4D143FE2650008198C /* FirstView.xib */; };
+		AFD99E59143FE2650008198C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFD99E4E143FE2650008198C /* MainWindow.xib */; };
+		AFD99E5A143FE2650008198C /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFD99E4F143FE2650008198C /* SecondView.xib */; };
+		AFD99E5B143FE2650008198C /* BFC_iOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD99E52143FE2650008198C /* BFC_iOSAppDelegate.m */; };
+		AFD99E5C143FE2650008198C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD99E55143FE2650008198C /* FirstViewController.m */; };
+		AFD99E5D143FE2650008198C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD99E57143FE2650008198C /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,15 +29,15 @@
 		21F1C1E1143FDF0A006C2A5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		21F1C1E3143FDF0A006C2A5B /* BFC-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BFC-iOS-Prefix.pch"; sourceTree = "<group>"; };
 		21F1C1E4143FDF0A006C2A5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		21F1C1E6143FDF0A006C2A5B /* BFC_iOSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFC_iOSAppDelegate.h; sourceTree = "<group>"; };
-		21F1C1E7143FDF0A006C2A5B /* BFC_iOSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFC_iOSAppDelegate.m; sourceTree = "<group>"; };
-		21F1C1EA143FDF0A006C2A5B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		21F1C1EC143FDF0A006C2A5B /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		21F1C1ED143FDF0A006C2A5B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		21F1C1EF143FDF0A006C2A5B /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		21F1C1F0143FDF0A006C2A5B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		21F1C1F3143FDF0A006C2A5B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
-		21F1C1F6143FDF0A006C2A5B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		AFD99E4D143FE2650008198C /* FirstView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstView.xib; sourceTree = "<group>"; };
+		AFD99E4E143FE2650008198C /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		AFD99E4F143FE2650008198C /* SecondView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
+		AFD99E51143FE2650008198C /* BFC_iOSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFC_iOSAppDelegate.h; sourceTree = "<group>"; };
+		AFD99E52143FE2650008198C /* BFC_iOSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFC_iOSAppDelegate.m; sourceTree = "<group>"; };
+		AFD99E54143FE2650008198C /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		AFD99E55143FE2650008198C /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		AFD99E56143FE2650008198C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		AFD99E57143FE2650008198C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,15 +84,8 @@
 		21F1C1DD143FDF0A006C2A5B /* BFC-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				21F1C1E6143FDF0A006C2A5B /* BFC_iOSAppDelegate.h */,
-				21F1C1E7143FDF0A006C2A5B /* BFC_iOSAppDelegate.m */,
-				21F1C1E9143FDF0A006C2A5B /* MainWindow.xib */,
-				21F1C1EC143FDF0A006C2A5B /* FirstViewController.h */,
-				21F1C1ED143FDF0A006C2A5B /* FirstViewController.m */,
-				21F1C1EF143FDF0A006C2A5B /* SecondViewController.h */,
-				21F1C1F0143FDF0A006C2A5B /* SecondViewController.m */,
-				21F1C1F2143FDF0A006C2A5B /* FirstView.xib */,
-				21F1C1F5143FDF0A006C2A5B /* SecondView.xib */,
+				AFD99E4C143FE2650008198C /* NIBs */,
+				AFD99E50143FE2650008198C /* Classes */,
 				21F1C1DE143FDF0A006C2A5B /* Supporting Files */,
 			);
 			path = "BFC-iOS";
@@ -107,6 +100,37 @@
 				21F1C1E4143FDF0A006C2A5B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFD99E4C143FE2650008198C /* NIBs */ = {
+			isa = PBXGroup;
+			children = (
+				AFD99E4D143FE2650008198C /* FirstView.xib */,
+				AFD99E4E143FE2650008198C /* MainWindow.xib */,
+				AFD99E4F143FE2650008198C /* SecondView.xib */,
+			);
+			path = NIBs;
+			sourceTree = "<group>";
+		};
+		AFD99E50143FE2650008198C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AFD99E51143FE2650008198C /* BFC_iOSAppDelegate.h */,
+				AFD99E52143FE2650008198C /* BFC_iOSAppDelegate.m */,
+				AFD99E53143FE2650008198C /* View Controllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AFD99E53143FE2650008198C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AFD99E54143FE2650008198C /* FirstViewController.h */,
+				AFD99E55143FE2650008198C /* FirstViewController.m */,
+				AFD99E56143FE2650008198C /* SecondViewController.h */,
+				AFD99E57143FE2650008198C /* SecondViewController.m */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,9 +181,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				21F1C1E2143FDF0A006C2A5B /* InfoPlist.strings in Resources */,
-				21F1C1EB143FDF0A006C2A5B /* MainWindow.xib in Resources */,
-				21F1C1F4143FDF0A006C2A5B /* FirstView.xib in Resources */,
-				21F1C1F7143FDF0A006C2A5B /* SecondView.xib in Resources */,
+				AFD99E58143FE2650008198C /* FirstView.xib in Resources */,
+				AFD99E59143FE2650008198C /* MainWindow.xib in Resources */,
+				AFD99E5A143FE2650008198C /* SecondView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,9 +195,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				21F1C1E5143FDF0A006C2A5B /* main.m in Sources */,
-				21F1C1E8143FDF0A006C2A5B /* BFC_iOSAppDelegate.m in Sources */,
-				21F1C1EE143FDF0A006C2A5B /* FirstViewController.m in Sources */,
-				21F1C1F1143FDF0A006C2A5B /* SecondViewController.m in Sources */,
+				AFD99E5B143FE2650008198C /* BFC_iOSAppDelegate.m in Sources */,
+				AFD99E5C143FE2650008198C /* FirstViewController.m in Sources */,
+				AFD99E5D143FE2650008198C /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,30 +210,6 @@
 				21F1C1E1143FDF0A006C2A5B /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		21F1C1E9143FDF0A006C2A5B /* MainWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				21F1C1EA143FDF0A006C2A5B /* en */,
-			);
-			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-		21F1C1F2143FDF0A006C2A5B /* FirstView.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				21F1C1F3143FDF0A006C2A5B /* en */,
-			);
-			name = FirstView.xib;
-			sourceTree = "<group>";
-		};
-		21F1C1F5143FDF0A006C2A5B /* SecondView.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				21F1C1F6143FDF0A006C2A5B /* en */,
-			);
-			name = SecondView.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -294,6 +294,7 @@
 				21F1C1FC143FDF0A006C2A5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
