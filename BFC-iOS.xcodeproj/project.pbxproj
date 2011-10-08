@@ -18,6 +18,12 @@
 		AFD99E5B143FE2650008198C /* BFC_iOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD99E52143FE2650008198C /* BFC_iOSAppDelegate.m */; };
 		AFD99E5C143FE2650008198C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD99E55143FE2650008198C /* FirstViewController.m */; };
 		AFD99E5D143FE2650008198C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD99E57143FE2650008198C /* SecondViewController.m */; };
+		AFD99E60143FE4A30008198C /* YouAreHereViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD99E5F143FE4A30008198C /* YouAreHereViewController.m */; };
+		AFD99E63143FE4C10008198C /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD99E62143FE4C10008198C /* SearchViewController.m */; };
+		AFD99E66143FE4E10008198C /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD99E65143FE4E00008198C /* AboutViewController.m */; };
+		AFD99E68143FE4FD0008198C /* YouAreHereView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFD99E67143FE4FD0008198C /* YouAreHereView.xib */; };
+		AFD99E6A143FE50D0008198C /* SearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFD99E69143FE50D0008198C /* SearchView.xib */; };
+		AFD99E6C143FE52B0008198C /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFD99E6B143FE52B0008198C /* AboutView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +44,15 @@
 		AFD99E55143FE2650008198C /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		AFD99E56143FE2650008198C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		AFD99E57143FE2650008198C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		AFD99E5E143FE4A30008198C /* YouAreHereViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouAreHereViewController.h; sourceTree = "<group>"; };
+		AFD99E5F143FE4A30008198C /* YouAreHereViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouAreHereViewController.m; sourceTree = "<group>"; };
+		AFD99E61143FE4C10008198C /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		AFD99E62143FE4C10008198C /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		AFD99E64143FE4E00008198C /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		AFD99E65143FE4E00008198C /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		AFD99E67143FE4FD0008198C /* YouAreHereView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YouAreHereView.xib; sourceTree = "<group>"; };
+		AFD99E69143FE50D0008198C /* SearchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchView.xib; sourceTree = "<group>"; };
+		AFD99E6B143FE52B0008198C /* AboutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +123,9 @@
 				AFD99E4D143FE2650008198C /* FirstView.xib */,
 				AFD99E4E143FE2650008198C /* MainWindow.xib */,
 				AFD99E4F143FE2650008198C /* SecondView.xib */,
+				AFD99E67143FE4FD0008198C /* YouAreHereView.xib */,
+				AFD99E69143FE50D0008198C /* SearchView.xib */,
+				AFD99E6B143FE52B0008198C /* AboutView.xib */,
 			);
 			path = NIBs;
 			sourceTree = "<group>";
@@ -129,6 +147,12 @@
 				AFD99E55143FE2650008198C /* FirstViewController.m */,
 				AFD99E56143FE2650008198C /* SecondViewController.h */,
 				AFD99E57143FE2650008198C /* SecondViewController.m */,
+				AFD99E5E143FE4A30008198C /* YouAreHereViewController.h */,
+				AFD99E5F143FE4A30008198C /* YouAreHereViewController.m */,
+				AFD99E61143FE4C10008198C /* SearchViewController.h */,
+				AFD99E62143FE4C10008198C /* SearchViewController.m */,
+				AFD99E64143FE4E00008198C /* AboutViewController.h */,
+				AFD99E65143FE4E00008198C /* AboutViewController.m */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -184,6 +208,9 @@
 				AFD99E58143FE2650008198C /* FirstView.xib in Resources */,
 				AFD99E59143FE2650008198C /* MainWindow.xib in Resources */,
 				AFD99E5A143FE2650008198C /* SecondView.xib in Resources */,
+				AFD99E68143FE4FD0008198C /* YouAreHereView.xib in Resources */,
+				AFD99E6A143FE50D0008198C /* SearchView.xib in Resources */,
+				AFD99E6C143FE52B0008198C /* AboutView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +225,9 @@
 				AFD99E5B143FE2650008198C /* BFC_iOSAppDelegate.m in Sources */,
 				AFD99E5C143FE2650008198C /* FirstViewController.m in Sources */,
 				AFD99E5D143FE2650008198C /* SecondViewController.m in Sources */,
+				AFD99E60143FE4A30008198C /* YouAreHereViewController.m in Sources */,
+				AFD99E63143FE4C10008198C /* SearchViewController.m in Sources */,
+				AFD99E66143FE4E10008198C /* AboutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
