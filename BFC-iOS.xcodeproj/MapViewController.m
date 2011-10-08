@@ -10,7 +10,7 @@
 
 @implementation MapViewController
 
-@synthesize mapView;
+@synthesize mapView=_mapView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -23,6 +23,7 @@
 
 - (void)dealloc
 {
+    [_mapView release];
     [super dealloc];
 }
 
@@ -40,6 +41,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    self.mapView.showsUserLocation = YES;
+
 }
 
 - (void)viewDidUnload
@@ -47,6 +50,7 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+    self.mapView = nil;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation

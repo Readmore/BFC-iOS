@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		21756E93143FE4D100838F7E /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21756E91143FE4D100838F7E /* MapViewController.m */; };
 		21756E94143FE4D100838F7E /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21756E92143FE4D100838F7E /* MapView.xib */; };
+		21756EA7143FF2FD00838F7E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21756EA6143FF2FD00838F7E /* MapKit.framework */; };
 		21F1C1D8143FDF0A006C2A5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F1C1D7143FDF0A006C2A5B /* UIKit.framework */; };
 		21F1C1DA143FDF0A006C2A5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F1C1D9143FDF0A006C2A5B /* Foundation.framework */; };
 		21F1C1DC143FDF0A006C2A5B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F1C1DB143FDF0A006C2A5B /* CoreGraphics.framework */; };
@@ -32,6 +33,7 @@
 		21756E90143FE4D100838F7E /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = "../../../BFC-iOS.xcodeproj/MapViewController.h"; sourceTree = "<group>"; };
 		21756E91143FE4D100838F7E /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = "../../../BFC-iOS.xcodeproj/MapViewController.m"; sourceTree = "<group>"; };
 		21756E92143FE4D100838F7E /* MapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MapView.xib; path = "../../BFC-iOS.xcodeproj/MapView.xib"; sourceTree = "<group>"; };
+		21756EA6143FF2FD00838F7E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		21F1C1D3143FDF0A006C2A5B /* BFC-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BFC-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F1C1D7143FDF0A006C2A5B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		21F1C1D9143FDF0A006C2A5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21756EA7143FF2FD00838F7E /* MapKit.framework in Frameworks */,
 				21F1C1D8143FDF0A006C2A5B /* UIKit.framework in Frameworks */,
 				21F1C1DA143FDF0A006C2A5B /* Foundation.framework in Frameworks */,
 				21F1C1DC143FDF0A006C2A5B /* CoreGraphics.framework in Frameworks */,
@@ -77,6 +80,7 @@
 		21F1C1C8143FDF0A006C2A5B = {
 			isa = PBXGroup;
 			children = (
+				21756EA6143FF2FD00838F7E /* MapKit.framework */,
 				21F1C1DD143FDF0A006C2A5B /* BFC-iOS */,
 				21F1C1D6143FDF0A006C2A5B /* Frameworks */,
 				21F1C1D4143FDF0A006C2A5B /* Products */,
