@@ -16,4 +16,6 @@
 
 }
 
+@property (nonatomic, retain) IBOutlet MKMapView *mapView;
+
 @end

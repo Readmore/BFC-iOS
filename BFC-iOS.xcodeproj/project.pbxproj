@@ -23,8 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		21756E90143FE4D100838F7E /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = "../../BFC-iOS.xcodeproj/MapViewController.h"; sourceTree = "<group>"; };
-		21756E91143FE4D100838F7E /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = "../../BFC-iOS.xcodeproj/MapViewController.m"; sourceTree = "<group>"; };
+		21756E90143FE4D100838F7E /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = "../../../BFC-iOS.xcodeproj/MapViewController.h"; sourceTree = "<group>"; };
+		21756E91143FE4D100838F7E /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = "../../../BFC-iOS.xcodeproj/MapViewController.m"; sourceTree = "<group>"; };
 		21756E92143FE4D100838F7E /* MapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MapView.xib; path = "../../BFC-iOS.xcodeproj/MapView.xib"; sourceTree = "<group>"; };
 		21F1C1D3143FDF0A006C2A5B /* BFC-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BFC-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F1C1D7143FDF0A006C2A5B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -121,8 +121,6 @@
 		AFD99E50143FE2650008198C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				21756E90143FE4D100838F7E /* MapViewController.h */,
-				21756E91143FE4D100838F7E /* MapViewController.m */,
 				AFD99E51143FE2650008198C /* BFC_iOSAppDelegate.h */,
 				AFD99E52143FE2650008198C /* BFC_iOSAppDelegate.m */,
 				AFD99E53143FE2650008198C /* View Controllers */,
@@ -133,6 +131,8 @@
 		AFD99E53143FE2650008198C /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				21756E90143FE4D100838F7E /* MapViewController.h */,
+				21756E91143FE4D100838F7E /* MapViewController.m */,
 				AFD99E54143FE2650008198C /* FirstViewController.h */,
 				AFD99E55143FE2650008198C /* FirstViewController.m */,
 				AFD99E56143FE2650008198C /* SecondViewController.h */,

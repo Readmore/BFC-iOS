@@ -8,8 +8,9 @@
 
 #import "MapViewController.h"
 
-
 @implementation MapViewController
+
+@synthesize mapView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
