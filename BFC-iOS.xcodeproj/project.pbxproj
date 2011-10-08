@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21756E93143FE4D100838F7E /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21756E91143FE4D100838F7E /* MapViewController.m */; };
+		21756E94143FE4D100838F7E /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21756E92143FE4D100838F7E /* MapView.xib */; };
 		21F1C1D8143FDF0A006C2A5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F1C1D7143FDF0A006C2A5B /* UIKit.framework */; };
 		21F1C1DA143FDF0A006C2A5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F1C1D9143FDF0A006C2A5B /* Foundation.framework */; };
 		21F1C1DC143FDF0A006C2A5B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F1C1DB143FDF0A006C2A5B /* CoreGraphics.framework */; };
@@ -21,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21756E90143FE4D100838F7E /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = "../../BFC-iOS.xcodeproj/MapViewController.h"; sourceTree = "<group>"; };
+		21756E91143FE4D100838F7E /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = "../../BFC-iOS.xcodeproj/MapViewController.m"; sourceTree = "<group>"; };
+		21756E92143FE4D100838F7E /* MapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MapView.xib; path = "../../BFC-iOS.xcodeproj/MapView.xib"; sourceTree = "<group>"; };
 		21F1C1D3143FDF0A006C2A5B /* BFC-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BFC-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F1C1D7143FDF0A006C2A5B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		21F1C1D9143FDF0A006C2A5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -108,6 +113,7 @@
 				AFD99E4D143FE2650008198C /* FirstView.xib */,
 				AFD99E4E143FE2650008198C /* MainWindow.xib */,
 				AFD99E4F143FE2650008198C /* SecondView.xib */,
+				21756E92143FE4D100838F7E /* MapView.xib */,
 			);
 			path = NIBs;
 			sourceTree = "<group>";
@@ -115,6 +121,8 @@
 		AFD99E50143FE2650008198C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				21756E90143FE4D100838F7E /* MapViewController.h */,
+				21756E91143FE4D100838F7E /* MapViewController.m */,
 				AFD99E51143FE2650008198C /* BFC_iOSAppDelegate.h */,
 				AFD99E52143FE2650008198C /* BFC_iOSAppDelegate.m */,
 				AFD99E53143FE2650008198C /* View Controllers */,
@@ -184,6 +192,7 @@
 				AFD99E58143FE2650008198C /* FirstView.xib in Resources */,
 				AFD99E59143FE2650008198C /* MainWindow.xib in Resources */,
 				AFD99E5A143FE2650008198C /* SecondView.xib in Resources */,
+				21756E94143FE4D100838F7E /* MapView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +207,7 @@
 				AFD99E5B143FE2650008198C /* BFC_iOSAppDelegate.m in Sources */,
 				AFD99E5C143FE2650008198C /* FirstViewController.m in Sources */,
 				AFD99E5D143FE2650008198C /* SecondViewController.m in Sources */,
+				21756E93143FE4D100838F7E /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
